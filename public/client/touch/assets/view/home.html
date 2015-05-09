@@ -1,0 +1,13 @@
+<div class="page">
+	
+	<div class="heading">
+		<img ng-src="{{content.heading.image}}">
+		<h1>{{ content.heading.h1 }}</h1>
+		<h2>{{ content.heading.source }} </h2>
+	</div>
+
+	<div class="body">
+		<p ng-repeat="copy in content.body">{{ copy }}</p>
+	</div>
+
+</div>

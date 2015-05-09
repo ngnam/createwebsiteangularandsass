@@ -1,0 +1,12 @@
+{
+	"name": "COP15",
+	"version": "1.0",
+
+	"dependencies": {
+		"modernizr": "~2.7.1",
+		"requirejs": "~2.1.8",
+		"angular": "~1.2.3",
+		"angular-ui-router": "~0.2.0",
+		"angular-animate": "~1.2.0"
+	}
+}

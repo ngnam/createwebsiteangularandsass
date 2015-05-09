@@ -1,0 +1,21 @@
+$primary-color: #304ffe;
+$secondary-color: #111111;
+$third-color: #111111;
+
+$header-color: green;
+$footer-color: red;
+
+$participant-color: #D6D6D6;
+
+*, *:before, *:after{
+	margin: 0;
+	padding: 0;
+	@include box-sizing(border-box);
+}
+
+html,
+body {
+	font-size: 12px;
+	line-height: 18px;
+}
+

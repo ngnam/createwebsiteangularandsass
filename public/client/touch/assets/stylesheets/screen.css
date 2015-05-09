@@ -1,0 +1,243 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 17, /usr/share/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* line 20, /usr/share/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+body {
+  line-height: 1;
+}
+
+/* line 22, /usr/share/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 24, /usr/share/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 26, /usr/share/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 28, /usr/share/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 101, /usr/share/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 30, /usr/share/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 114, /usr/share/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 10, /home/nam/Projects/Learn/WebsiteMobie/public/client/touch/assets/sass/_base.scss */
+*, *:before, *:after {
+  margin: 0;
+  padding: 0;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 17, /home/nam/Projects/Learn/WebsiteMobie/public/client/touch/assets/sass/_base.scss */
+html,
+body {
+  font-size: 12px;
+  line-height: 18px;
+}
+
+/* line 1, /home/nam/Projects/Learn/WebsiteMobie/public/client/touch/assets/sass/_header.scss */
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 68px;
+  width: 100%;
+  border-bottom: 1px solid #333;
+  background: green;
+  text-align: center;
+}
+/* line 11, /home/nam/Projects/Learn/WebsiteMobie/public/client/touch/assets/sass/_header.scss */
+header .logo {
+  width: 90px;
+  height: 40px;
+  margin-top: 14px;
+}
+
+/* line 1, /home/nam/Projects/Learn/WebsiteMobie/public/client/touch/assets/sass/_footer.scss */
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 70px;
+  width: 100%;
+  border-top: 1px solid #333;
+  overflow: hidden;
+}
+/* line 9, /home/nam/Projects/Learn/WebsiteMobie/public/client/touch/assets/sass/_footer.scss */
+footer .footer-content {
+  position: relative;
+  width: 100%;
+}
+/* line 12, /home/nam/Projects/Learn/WebsiteMobie/public/client/touch/assets/sass/_footer.scss */
+footer .footer-content ul {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+/* line 16, /home/nam/Projects/Learn/WebsiteMobie/public/client/touch/assets/sass/_footer.scss */
+footer .footer-content ul li {
+  display: -moz-inline-box;
+  -moz-box-orient: vertical;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  vertical-align: top;
+  width: 25%;
+  position: relative;
+  padding: 10px 0px;
+}
+/* line 7, /usr/share/compass/frameworks/compass/stylesheets/compass/css3/_inline-block.scss */
+footer .footer-content ul li {
+  *display: inline;
+}
+/* line 22, /home/nam/Projects/Learn/WebsiteMobie/public/client/touch/assets/sass/_footer.scss */
+footer .footer-content ul li a {
+  text-decoration: none;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  line-height: 40px;
+  text-align: center;
+}
+
+/* line 1, /home/nam/Projects/Learn/WebsiteMobie/public/client/touch/assets/sass/_mainuiview.scss */
+#main-ui-view {
+  position: absolute;
+  top: 70px;
+  left: 0px;
+  bottom: 70px;
+  width: 100%;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+/* line 1, /home/nam/Projects/Learn/WebsiteMobie/public/client/touch/assets/sass/_page.scss */
+.page {
+  width: 900px;
+  margin: 0 auto;
+  padding: 0px;
+}
+/* line 5, /home/nam/Projects/Learn/WebsiteMobie/public/client/touch/assets/sass/_page.scss */
+.page .heading {
+  max-width: 175px;
+  height: auto;
+  margin: 0 auto;
+}
+/* line 10, /home/nam/Projects/Learn/WebsiteMobie/public/client/touch/assets/sass/_page.scss */
+.page .heading img {
+  width: 175px;
+  height: 100px;
+}
+/* line 16, /home/nam/Projects/Learn/WebsiteMobie/public/client/touch/assets/sass/_page.scss */
+.page h1 {
+  color: #304ffe;
+  text-align: center;
+  text-transform: uppercase;
+}
+/* line 22, /home/nam/Projects/Learn/WebsiteMobie/public/client/touch/assets/sass/_page.scss */
+.page h2 {
+  color: #111111;
+  text-align: center;
+  text-transform: uppercase;
+}
+/* line 29, /home/nam/Projects/Learn/WebsiteMobie/public/client/touch/assets/sass/_page.scss */
+.page .body p {
+  margin: 20px 0px;
+}
+/* line 35, /home/nam/Projects/Learn/WebsiteMobie/public/client/touch/assets/sass/_page.scss */
+.page .participants ul {
+  margin: 10px 10px;
+  display: -moz-inline-box;
+  -moz-box-orient: vertical;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  border-radius: 4px;
+  padding: 10px 10px;
+  background: #d6d6d6;
+}
+/* line 7, /usr/share/compass/frameworks/compass/stylesheets/compass/css3/_inline-block.scss */
+.page .participants ul {
+  *display: inline;
+}
+/* line 41, /home/nam/Projects/Learn/WebsiteMobie/public/client/touch/assets/sass/_page.scss */
+.page .participants ul li {
+  text-align: left;
+  color: white;
+  padding-bottom: 5px;
+  background: green;
+}
+/* line 47, /home/nam/Projects/Learn/WebsiteMobie/public/client/touch/assets/sass/_page.scss */
+.page .participants ul .country {
+  text-align: center;
+  font-size: 20px;
+  background: red;
+}
+/* line 54, /home/nam/Projects/Learn/WebsiteMobie/public/client/touch/assets/sass/_page.scss */
+.page .participants .page-heading {
+  font-size: 22px;
+  color: red;
+  margin-left: 10px;
+}
+
+@media (max-width: 736px) {
+  /* line 2, /home/nam/Projects/Learn/WebsiteMobie/public/client/touch/assets/sass/_reponsive.scss */
+  .page {
+    width: 350px;
+  }
+}
+@media (max-width: 350px) {
+  /* line 8, /home/nam/Projects/Learn/WebsiteMobie/public/client/touch/assets/sass/_reponsive.scss */
+  .page {
+    width: 275px;
+  }
+}

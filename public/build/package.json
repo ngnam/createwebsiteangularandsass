@@ -1,0 +1,28 @@
+{
+	"author": "@Ng nam",
+	"name": "Cop15",
+	"description": "Website mobile angular and sass",
+	"homepage": "http://",
+	"bugs": "",
+	"readme": "readme.txt",
+	"repository": {
+		"type": "",
+		"url": ""
+	},
+	"licenses": {
+		"url": ""
+	},
+
+	"dependencies": {
+
+	},
+	"devDependencies": {
+		"grunt": "~0.4.1",
+		"grunt-contrib-clean": "~0.4.1",
+		"grunt-contrib-copy": "~0.4.0",
+		"grunt-contrib-concat": "~0.3.0",
+		"grunt-contrib-uglify": "~0.2.0",
+		"grunt-contrib-requirejs": "~0.4.1",
+		"grunt-contrib-cssmin": ""
+	}
+}
